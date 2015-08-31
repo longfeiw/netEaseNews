@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewTableViewController.h
 //  news
 //
 //  Created by 王龙飞 on 15/8/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NewTableViewController : UITableViewController
 
 @end
-
