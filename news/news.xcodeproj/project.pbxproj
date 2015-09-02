@@ -27,11 +27,13 @@
 		5BC629EB1B94AC0400D1F689 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC629E11B94AC0400D1F689 /* UIProgressView+AFNetworking.m */; };
 		5BC629EC1B94AC0400D1F689 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC629E31B94AC0400D1F689 /* UIRefreshControl+AFNetworking.m */; };
 		5BC629ED1B94AC0400D1F689 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC629E51B94AC0400D1F689 /* UIWebView+AFNetworking.m */; };
+		5BC629F01B94AF1800D1F689 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC629EF1B94AF1800D1F689 /* News.m */; };
 		5BD2AA0B1B947E21007A0FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD2AA0A1B947E21007A0FCB /* main.m */; };
 		5BD2AA0E1B947E21007A0FCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD2AA0D1B947E21007A0FCB /* AppDelegate.m */; };
 		5BD2AA161B947E21007A0FCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2AA151B947E21007A0FCB /* Images.xcassets */; };
 		5BD2AA191B947E21007A0FCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD2AA171B947E21007A0FCB /* LaunchScreen.xib */; };
 		5BD2AA251B947E21007A0FCB /* newsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD2AA241B947E21007A0FCB /* newsTests.m */; };
+		5BE8FF4B1B959F2B0022C8D2 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8FF4A1B959F2B0022C8D2 /* NSArray+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		5BC629E31B94AC0400D1F689 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		5BC629E41B94AC0400D1F689 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		5BC629E51B94AC0400D1F689 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		5BC629EE1B94AF1800D1F689 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		5BC629EF1B94AF1800D1F689 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 		5BD2AA051B947E21007A0FCB /* news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = news.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD2AA091B947E21007A0FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD2AA0A1B947E21007A0FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 		5BD2AA1E1B947E21007A0FCB /* newsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD2AA231B947E21007A0FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD2AA241B947E21007A0FCB /* newsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newsTests.m; sourceTree = "<group>"; };
+		5BE8FF491B959F2B0022C8D2 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		5BE8FF4A1B959F2B0022C8D2 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,8 @@
 				5BC629AF1B9496A300D1F689 /* NewTableViewController.h */,
 				5BC629B01B9496A300D1F689 /* NewTableViewController.m */,
 				5BC629B21B9496C400D1F689 /* Newsstoryboard.storyboard */,
+				5BC629EE1B94AF1800D1F689 /* News.h */,
+				5BC629EF1B94AF1800D1F689 /* News.m */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -215,6 +223,7 @@
 		5BD2AA071B947E21007A0FCB /* news */ = {
 			isa = PBXGroup;
 			children = (
+				5BE8FF481B959F2B0022C8D2 /* Log(UTF8翻译成中文) */,
 				5BC629D41B94AC0400D1F689 /* UIKit+AFNetworking */,
 				5BC629B41B94A66C00D1F689 /* AFNetworking */,
 				5BC629AB1B94951D00D1F689 /* Classes */,
@@ -251,6 +260,15 @@
 				5BD2AA231B947E21007A0FCB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BE8FF481B959F2B0022C8D2 /* Log(UTF8翻译成中文) */ = {
+			isa = PBXGroup;
+			children = (
+				5BE8FF491B959F2B0022C8D2 /* NSArray+Log.h */,
+				5BE8FF4A1B959F2B0022C8D2 /* NSArray+Log.m */,
+			);
+			path = "Log(UTF8翻译成中文)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,6 +377,7 @@
 				5BC629E81B94AC0400D1F689 /* UIAlertView+AFNetworking.m in Sources */,
 				5BC629C81B94A66D00D1F689 /* AFHTTPRequestOperation.m in Sources */,
 				5BC629B11B9496A300D1F689 /* NewTableViewController.m in Sources */,
+				5BE8FF4B1B959F2B0022C8D2 /* NSArray+Log.m in Sources */,
 				5BC629C91B94A66D00D1F689 /* AFHTTPRequestOperationManager.m in Sources */,
 				5BC629CB1B94A66D00D1F689 /* AFNetworkReachabilityManager.m in Sources */,
 				5BC629CF1B94A66D00D1F689 /* AFURLResponseSerialization.m in Sources */,
@@ -373,6 +392,7 @@
 				5BC629ED1B94AC0400D1F689 /* UIWebView+AFNetworking.m in Sources */,
 				5BD2AA0E1B947E21007A0FCB /* AppDelegate.m in Sources */,
 				5BC629E61B94AC0400D1F689 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				5BC629F01B94AF1800D1F689 /* News.m in Sources */,
 				5BD2AA0B1B947E21007A0FCB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

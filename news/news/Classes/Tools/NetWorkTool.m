@@ -21,6 +21,12 @@
         //baseURL 基本路径,注意:末尾需要以'/'结尾
         NSURL *url = [NSURL URLWithString:@"http://c.m.163.com/nc/article/headline/"];
         instance = [[self alloc] initWithBaseURL:url];
+        
+        //添加解析文件的类型:text/html
+        //响应解析的数据格式- AFN为了避免出错,默认只支持三种数据类型的JSON 反序列化
+        //官方推荐的方法直接在里面添加
+        //[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", nil];
+        instance.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript", @"text/html",nil];
     });
     
     return instance;
