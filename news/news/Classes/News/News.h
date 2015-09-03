@@ -17,7 +17,7 @@
 @property (nonatomic, copy) NSString *digest;
 
 /**跟帖数量*/
-@property (nonatomic, assign) int *replyCount;
+@property (nonatomic, assign) NSInteger replyCount;
 
 /**配图地址*/
 @property (nonatomic, copy) NSString *imgsrc;
